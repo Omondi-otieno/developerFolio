@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "James Omondi",
+  title: "Hi all, I'm James",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Highly motivated Engineer with a strong background in Civil and Structural Engineering, complemented by expertise in Data Analysis, Software Engineering, Machine Learning and AI for innovative, data-driven problem solving."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://github.com/Omondi-otieno/Omondi-otieno/blob/main/James%20Omondi%20Otieno%20CV%202025.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Omondi-otieno",
+  linkedin: "https://linkedin.com/in/otieno-james-omondi/",
+  gmail: "jamomondi@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //medium: "https://medium.com/@saadpasta",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Skills",
+  subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop effecient Python scripts to solve complex problems in Civil and Structural Engineering. Fluent in Numpy, Matplotlib, and Pywt"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Design and Construction of Civil and Structural Engineering projects leveraging software tools like ArchiCAD, AutoCAD, Revit, Civil3D, Robot and SAP2000"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Developing and deploying AI and LLM models for predictive analysis and decision-making for various fields"
     )
   ],
 
@@ -65,16 +65,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "JavaScript",
@@ -87,14 +79,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
@@ -115,6 +99,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Archicad",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "Autocad",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "Revit",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "Civil3d",
+      fontAwesomeClassname: "fas fa-file-code"
+    },
+    {
+      skillName: "Robot",
+      fontAwesomeClassname: "fas fa-robot"
     }
   ],
   display: true // Set false to hide this section, defaults to true
