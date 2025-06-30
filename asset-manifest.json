@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Omondi-otieno/developerFolio/static/css/main.7377eb6d.css",
+    "main.js": "/Omondi-otieno/developerFolio/static/js/main.2c3872c3.js",
+    "static/css/64.bba8fa55.chunk.css": "/Omondi-otieno/developerFolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/Omondi-otieno/developerFolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/Omondi-otieno/developerFolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/Omondi-otieno/developerFolio/static/js/769.bda0d7b7.chunk.js",
+    "static/media/Bixa.jpg": "/Omondi-otieno/developerFolio/static/media/Bixa.18d6240e93f3aad3959e.jpg",
+    "static/media/Montserrat-Regular.ttf": "/Omondi-otieno/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/RambaLogo.jpg": "/Omondi-otieno/developerFolio/static/media/RambaLogo.b2c2a66e7935e33c7554.jpg",
+    "static/media/Agustina.woff": "/Omondi-otieno/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/MoiLogo.jpeg": "/Omondi-otieno/developerFolio/static/media/MoiLogo.732dc83114d33c9d3b10.jpeg",
+    "static/media/avocent.jpg": "/Omondi-otieno/developerFolio/static/media/avocent.7eb22a858cc6c71d658a.jpg",
+    "static/media/Data Science.png": "/Omondi-otieno/developerFolio/static/media/Data Science.3c4e008f3a75560efe53.png",
+    "static/media/manOnTable.svg": "/Omondi-otieno/developerFolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/Data Analytics.png": "/Omondi-otieno/developerFolio/static/media/Data Analytics.f6be4415917264beb1ec.png",
+    "static/media/contactMailDark.svg": "/Omondi-otieno/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/Omondi-otieno/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/kenha.png": "/Omondi-otieno/developerFolio/static/media/kenha.234925f3796b91151466.png",
+    "static/media/skill.svg": "/Omondi-otieno/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/Omondi-otieno/developerFolio/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/Omondi-otieno/developerFolio/index.html",
+    "static/media/talksCardBack.svg": "/Omondi-otieno/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.7377eb6d.css.map": "/Omondi-otieno/developerFolio/static/css/main.7377eb6d.css.map",
+    "main.2c3872c3.js.map": "/Omondi-otieno/developerFolio/static/js/main.2c3872c3.js.map",
+    "64.bba8fa55.chunk.css.map": "/Omondi-otieno/developerFolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/Omondi-otieno/developerFolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/Omondi-otieno/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/Omondi-otieno/developerFolio/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7377eb6d.css",
+    "static/js/main.2c3872c3.js"
+  ]
+}
