@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "James Omondi",
-  title: "Hi all, I'm James",
+  title: "Hello there, I'm James",
   subTitle: emoji(
-    "Highly motivated Engineer with a strong background in Civil and Structural Engineering, complemented by expertise in Data Analysis, Software Engineering, Machine Learning and AI for innovative, data-driven problem solving."
+    "I am a Highly motivated Engineer with a strong background in Civil and Structural Engineering, complemented by expertise in Data Analysis, Software Engineering, Machine Learning and AI for innovative, data-driven problem solving."
   ),
   resumeLink:
     "https://github.com/Omondi-otieno/Omondi-otieno/blob/main/James%20Omondi%20Otieno%20CV%202025.pdf", // Set to empty to hide the button
@@ -52,7 +52,7 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop effecient Python scripts to solve complex problems in Civil and Structural Engineering. Fluent in Numpy, Matplotlib, and Pywt"
+      "⚡ Developing effecient Python scripts to solve complex problems in Civil and Structural Engineering. Fluent in Numpy, Matplotlib, and Pywt"
     ),
     emoji("⚡ Design and Construction of Civil and Structural Engineering projects leveraging software tools like ArchiCAD, AutoCAD, Revit, Civil3D, Robot and SAP2000"),
     emoji(
@@ -130,23 +130,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Moi University",
+      logo: require("./assets/images/MoiLogo.jpeg"),
+      subHeader: "Bachelor of Engineering in Civil and Structural Engineering",
+      duration: "September 2018 - April 2024",
+      desc: "Second Class Honors (Upper Division). Took courses on:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Structural Analysis, Geotechnical Engineering, Water Resources Engineering",
+        "Geometric and Pavement Design og Highways, Transportation Engineering",
+        "Construction Management, Project Management, and Engineering Economics",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Ramba Boys High School",
+      logo: require("./assets/images/RambaLogo.jpg"),
+      subHeader: "Kenya Certiificate of Secondary Education",
+      duration: "February 2014 - November 2017",
+      desc: "Scored a mean grade of A- (Minus)",
+      descBullets: ["Studied Sciences and Mathematics with a focus on Physics, Chemistry, and Mathematics"]
     }
   ]
 };
@@ -157,16 +158,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "AI Prompt Engineering", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Civil and Structural Engineering Design", //Insert stack or technology you have experience in
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Software Development", //Insert stack or technology you have experience in
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Project Management", //Insert stack or technology you have experience in
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,34 +180,48 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section 
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "LLM Full Stack Software Engineer",
+      company: "Hisani Systems Ltd",
+      companylogo: require("./assets/images/Hisani Logo.jpg"),
+      date: "April 2024 – Present",
+      desc: "As a Full Stack Software Engineer at Hisani Systems Ltd, I am responsible for developing and maintaining web applications using Python, Flask, and React. I also work on integrating AI and LLM models to enhance the functionality of our products.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Hisani Medical ERP Solution: Collaborated with senior engineers to integrate GoogleGemini into their existing medical ERP.",
+        "Contributed to maintaining and adding features to their Medical ERP solution using React, Django, and PostgreSQL.",
+        "Gained practical experience deploying some ERP solutions to an EC2 instance using Docker containers managed by an ECS service."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst",
+      company: "DCSE, Moi University",
+      companylogo: require("./assets/images/MoiLogo.jpeg"),
+      date: "Sep 2023 – April 2024",
+      desc: "Involved in data analysis projects related to civil and structural engineering, focusing on data-driven decision-making and predictive analysis.",
+      descBullets: [
+        "Developed a Python program for the analysis of accelerometer data from vibration sensors using Numpy.",
+        "Developed a Python-based simulation that models the treatment of industrial wastewater from a paper mill using two different treatment plans. It evaluates contaminant removal across various units—like sedimentation, electrocoagulation, and rapid sand filtration—and checks compliance against recommended effluent limits.",
+        "Assembled and programmed a device that collects vibration data from structures for Structural Health Monitoring."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Civil Engineer",
+      company: "Kenya National Highways Authority",
+      companylogo: require("./assets/images/kenha.png"),
+      date: "June 2022 – September 2022",
+      desc: "Assisted in the design, analysis and implementation of civil engineering projects, focusing on structural integrity and compliance with safety standards.",
+      descBullets: [
+        "Assisted in the supervision and inspection of road works.",
+        "Prepared Program of Works documents.",
+        "Created topographical maps and conducted topographical surveys.",
+        "Performed testing of material properties in the materials laboratory",
+        "Assisted in the creation of road alignment surface profiles and the design and inspection of bridges."
+      ]
     }
   ]
+ 
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -210,35 +229,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "STRUCTURAL ENGINEERING PROJECTS",
+  subtitle: "These are some of the Structural Engineering projects I am working on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/avocent.jpg"),
+      projectName: "Avocent Hospital",
+      projectDesc: "Together with a team from BIXA medical construction, I am working on the architectural and structural design of Avocent Hospital, a level 4 hospital located in Kisumu, Kenya.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Take a Look",
+          url: "https://github.com/Omondi-otieno/avocent_hospital"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Bixa.jpg"),
+      projectName: "BIXA Medical Center",
+      projectDesc: "I am working on the architectural and structural design of BIXA Medical Center, to be located in Athi River, Kenya.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Take a Look",
+          url: "https://github.com/Omondi-otieno/Bixa-medical-center"
         }
       ]
     }
@@ -250,59 +269,37 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "I have received the following certifications",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Data Analytics Essentials",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Offered by CISCO Networking Academy",
+      image: require("./assets/images/Data Analytics.png"),
+      imageAlt: "CISCO",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Verify",
+          url: "https://www.credly.com/earner/earned/badge/2ac5bd65-4e2d-442f-93e1-3e1fd593418f"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Introduction to Data Science",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Offered by CISCO Networking Academy",
+      image: require("./assets/images/Data Science.png"),
+      imageAlt: "CISCO",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Verify",
+          url: "https://www.credly.com/badges/9d0133c7-1136-4240-8831-8a742d17f984"
         }
       ]
     },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -328,7 +325,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -347,7 +344,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -360,7 +357,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -376,18 +373,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+254 791 371 8105",
+  email_address: "jamomondi@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
